@@ -1,0 +1,81 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+
+}.header{
+    display: flex;
+    height:70px;
+    width: 100%;
+    /* background-color: #000C66;*/
+    background-color: #83767D;
+    position: fixed; 
+}
+
+.h-right{
+    display: flex;
+    flex-direction: row;
+    flex: 0.6;
+}
+.h-left{
+    display: flex;
+    flex-direction: row;
+    flex: 0.4;
+    
+}
+.projects, .podcast, .gallery{
+    height: 45px;
+    width: 200px;
+    /* background-color: #000C66;    */
+    background-color: #83767D;
+    border: 1.5px solid white;
+    border-radius: 10px;
+    align-self: center;
+    color: white;
+}
+
+.projects:hover, .podcast:hover, .gallery:hover{
+    border: 1.5px solid #472116;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.b-up{
+    display: flex;
+    flex-direction: row;
+    height: 490px;
+    width: 100%;
+    border-bottom:2px solid #472116;
+}
+.b-down{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    /* background-color:black; */
+}
+.u-left{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    background-image: url("./Ewura\ Ama\ Etruwaa\ Sam\(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.u-right{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
