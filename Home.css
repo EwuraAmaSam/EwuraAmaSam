@@ -83,7 +83,7 @@ body{
     display: flex;
     flex-direction: column;
     flex: 0.5;
-    color: black;
+    color: rgba(0, 0, 0, 0.525);
 }
 .text{
     width: 450px;
