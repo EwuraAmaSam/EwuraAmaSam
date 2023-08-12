@@ -54,7 +54,7 @@ body{
     flex-direction: row;
     height: 490px;
     width: 100%;
-    border-bottom:2px solid #472116;
+    border-bottom:1px solid #472116;
 }
 .b-down{
     display: flex;
@@ -67,15 +67,34 @@ body{
     display: flex;
     flex-direction: column;
     flex: 0.5;
+}
+
+.image{
+    width: 450px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 120px;
     background-image: url("./Ewura\ Ama\ Etruwaa\ Sam\(1\).jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border: none;
 }
 .u-right{
     display: flex;
     flex-direction: column;
     flex: 0.5;
+    color: black;
+}
+.text{
+    width: 450px;
+    height: 400px;
+    margin-top: 80px;
+
 }
 p{
     font-family: 'Open Sans', sans-serif;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    
 }
